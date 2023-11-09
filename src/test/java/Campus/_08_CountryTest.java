@@ -120,7 +120,7 @@ public class _08_CountryTest {
 
                 .then()
                 .log().body()
-                .statusCode(200)
+                .statusCode(400) //bilerek
                 .body("name", equalTo(newCountryName))
         ;
     }
